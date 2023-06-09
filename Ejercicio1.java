@@ -73,6 +73,9 @@ public class Ejercicio1 {
             System.out.println("Las 3 pilas ahora tienen altura: " + height1);
         } else {
             System.out.println("No son iguales");
+            System.out.println("La altura del cilindro 1 es: " + height1);
+            System.out.println("La altura del cilindro 2 es: " + height2);
+            System.out.println("La altura del cilindro 3 es: " + height3);
         }
     }
 
