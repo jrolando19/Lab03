@@ -47,14 +47,20 @@ public class Ejercicio1 {
 
     private static void PopCylinder(int numCylinder) {
         if (numCylinder == 1) {
+            System.out.println("Cilindro antes de eliminar: " + Cylinder1);
             height1 = height1 - Cylinder1.peek();
             Cylinder1.pop();
+            System.out.println("Cilindro luego de eliminar: " + Cylinder1);
         } else if (numCylinder == 2) {
+            System.out.println("Cilindro antes de eliminar: " + Cylinder2);
             height2 = height2 - Cylinder2.peek();
             Cylinder2.pop();
+            System.out.println("Cilindro después de eliminar: " + Cylinder2);
         } else if (numCylinder == 3) {
+            System.out.println("Cilindro antes de eliminar: " + Cylinder3);
             height3 = height3 - Cylinder3.peek();
             Cylinder3.pop();
+            System.out.println("Cilindro después de eliminar: " + Cylinder3);
         }
     }
 
