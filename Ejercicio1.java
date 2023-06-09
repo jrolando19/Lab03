@@ -81,17 +81,20 @@ public class Ejercicio1 {
 
     private static void PushCylinder(int numCylinder, int number) {
         if (numCylinder == 1) {
+            System.out.println("Cilindro antes de agregar elemento: " + Cylinder1);
             Cylinder1.push(number);
             height1 = height1 + number;
-            System.out.println(Cylinder1);
+            System.out.println("Cilindro luego de agregar elemento: " + Cylinder1);
         } else if (numCylinder == 2) {
+            System.out.println("Cilindro antes de agregar elemento: " + Cylinder2);
             Cylinder2.push(number);
             height2 = height2 + number;
-            System.out.println(Cylinder2);
+            System.out.println("Cilindro luego de agregar elemento: " + Cylinder2);
         } else if (numCylinder == 3) {
+            System.out.println("Cilindro antes de agregar elemento: " + Cylinder3);
             Cylinder3.push(number);
             height3 = height3 + number;
-            System.out.println(Cylinder3);
+            System.out.println("Cilindro luego de agregar elemento: " + Cylinder3);
         }
     }
 }
